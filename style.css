@@ -1,0 +1,33 @@
+header{
+   background-color: black;
+   margin: 0;
+}
+
+button{
+   background-color: #ffc107;
+   color: rgb(10, 0, 0);
+   border-radius: 10px;
+   padding: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: large;
+   float: right;
+   margin: 30px 30px 30px;
+}
+
+button:hover {
+    background-color: rgb(252, 253, 252);
+    transition: .2s;
+}
+
+nav{
+  display: auto auto auto auto;
+  float: right;
+  margin: 50px 50px 50px;
+  word-spacing: 60px;
+  font-size: 2.0rem;
+}
+
+
+#quemsomos{
+  word-spacing: 5px;
+}
