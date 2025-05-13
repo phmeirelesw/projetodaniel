@@ -1,9 +1,9 @@
-# projetoHambugueria
+#ProjetoHambugueria
+#Sobre o projeto
 
-
-Participantes: 
--Pedro Gusmão
--Gabriel torres
--Pedro meireles
--Gabriel souza
--Caio vinicius
+#Participantes 
+- Pedro Gusmão
+- Gabriel Torres
+- Pedro Meireles
+- Gabriel Sousa
+- Caio Vinicius
