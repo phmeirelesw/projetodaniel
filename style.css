@@ -1,7 +1,13 @@
 body{
+<<<<<<< Updated upstream
    background-color: #ffc107;
    font-family: 'Montserrat', sans-serif;
    margin: 0;
+=======
+   background-color: #ffc107;;
+   font-family: "poppins", sans-serif;
+   margin: 0%;
+>>>>>>> Stashed changes
 }
 header{
    background-color: rgb(10, 0, 0);
