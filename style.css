@@ -29,10 +29,18 @@ nav{
   float: right;
   margin: 50px 50px 50px;
   word-spacing: 60px;
-  font-size: 2.0rem;
+  font-size: large;
 }
-
-
 #quemsomos{
   word-spacing: 5px;
+}
+/* ID */
+
+#botao{
+   color: rgb(10, 0, 0);
+   border-radius: 10px;
+   padding: 20px;
+   font-family: "poppins", sans-serif;
+   background-color: #ffc107;
+   text-decoration: none ;
 }
