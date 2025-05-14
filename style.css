@@ -6,9 +6,7 @@ body{
 header{
    background-color: rgb(10, 0, 0);
    margin: 0;
-   
 }
-   
 button{
    background-color: #ffc107;
    color: rgb(10, 0, 0);
@@ -19,12 +17,10 @@ button{
    float: right;
    margin: 30px 30px 30px;
 }
-
 button:hover {
     background-color: rgb(252, 253, 252);
     transition: .2s;
 }
-
 nav{
   display: auto auto auto auto;
   float: right;
