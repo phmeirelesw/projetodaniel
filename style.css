@@ -1,8 +1,13 @@
-header{
-   background-color: #ffc107;
+body{
+   background-color: #ffc107;;
+   font-family: "poppins", sans-serif;
    margin: 0;
 }
-
+header{
+   background-color: black;
+   margin: 0;
+}
+   
 button{
    background-color: #ffc107;
    color: rgb(10, 0, 0);
