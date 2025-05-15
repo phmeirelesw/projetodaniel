@@ -1,25 +1,38 @@
 body{
-   background-color: #D35400;
+   background-color: #E65100;
    color: whitesmoke;
    font-family: 'Montserrat', sans-serif;
    margin: 0;
+    text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; /* Sombra do texto */
 }
 header{
    background-color: rgb(10, 0, 0);
    margin: 0;
 }
-h1{
+h2{
+   font-size: 150%;
    color: whitesmoke;
    padding: 20px;
    font-family: 'Montserrat', sans-serif;
 }
+h3{
+   padding: 20px;
+}
+b, ins{
+   text-decoration: none;
+}
 button{
-   background-color: #D35400;
-   color: whitesmoke;
+   text-decoration: none;
+   background-color: #E65100;
+   color: black;
    border-radius: 10px;
    padding: 20px;
    font-family: 'Montserrat', sans-serif;
-   font-size: large;
+   font-size: 150%;
    float: right;
    margin: 30px 30px 30px;
 }
@@ -32,13 +45,18 @@ nav{
   float: right;
   margin: 50px 50px 50px;
   word-spacing: 60px;
-  font-size: large;
+  font-size: 140%;
 }
 footer{
    color: whitesmoke;
    font-family: 'Montserrat', sans-serif;
    text-align: center; 
    background-color: rgb(10, 0, 0); 
+}
+footer a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 0 10px;
 }
 /* ID */
 
@@ -49,4 +67,9 @@ footer{
    font-family: "poppins", sans-serif;
    text-decoration: none ;
    word-spacing: 5px;
+}
+#botao:hover {
+   color:#E65100;
+   transform: scale(1.05); /* Aumenta o tamanho da imagem ao passar o mouse */
+   transition: transform 0.3s; /* Transição suave */
 }
