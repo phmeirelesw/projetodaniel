@@ -13,16 +13,21 @@ header{
    background-color: rgb(10, 0, 0);
    margin: 0;
 }
+h1{
+   font-size: 280%;
+   color: whitesmoke;
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   
+}
 h2{
    font-size: 150%;
    color: whitesmoke;
    padding: 20px;
    font-family: 'Montserrat', sans-serif;
+   margin-bottom: 4px; /* aproxima do que vem depois */
 }
-h3{
-   padding: 20px;
-}
-b, ins{
+ins{
    text-decoration: none;
 }
 button{
@@ -70,6 +75,9 @@ footer a {
 }
 #botao:hover {
    color:#E65100;
-   transform: scale(1.05); /* Aumenta o tamanho da imagem ao passar o mouse */
+   transform: scale(2.0); /* Aumenta o tamanho da imagem ao passar o mouse */
    transition: transform 0.3s; /* Transição suave */
+}
+#bem-vindo{
+font-size: 80%;
 }
