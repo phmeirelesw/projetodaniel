@@ -11,10 +11,16 @@ body{
    min-height: 100vh;
    display: flex; 
    flex-direction: column;
+   padding-top: 120px;
 }
 header{
    background-color: rgb(10, 0, 0);
    margin: 0;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1000;
+   box-shadow: 0 2px 8px rgba(0.05,0.05,0.05,0.05); /* sombra para destacar */
 }
 h1{
    font-size: 280%;
