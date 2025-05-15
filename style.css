@@ -14,18 +14,49 @@ body{
    padding-top: 120px;
 }
 header{
-   background-color: rgb(10, 0, 0);
+   background-color: black;
    margin: 0;
    position: fixed;
    top: 0;
    width: 100%;
    z-index: 1000;
+   display: flex; /* Flexbox para alinhar os itens */
+   align-items: center; /* Centraliza verticalmente */
+   justify-content: flex-start; /* Centraliza horizontalmente */
+   padding: 0 0px;
+   height: 130px; /* Altura fixa para o header */
 }
-
-
-
+header img{
+   height: 110px;
+   margin-right: 40px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  margin:0;
+  gap: 60px;
+}
+button{
+   text-decoration: none;
+   background-color: #E65100;
+   color: black;
+   border-radius: 25px;
+   padding: 20px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 130%;
+   margin: 0;
+   cursor: pointer;
+   float: right;
+   transition: background 0.2s;
+}
+H1{
+   float: center;
+   margin: 20px;
+   padding: 20px;
+   text-align: center;
+}
 h2{
-   font-size: 150%;
+   font-size: 200%;
    color: whitesmoke;
    padding: 20px;
    font-family: 'Montserrat', sans-serif;
@@ -37,33 +68,11 @@ h5{
 ins{
    text-decoration: none;
 }
-button{
-   text-decoration: none;
-   background-color: #E65100;
-   color: black;
-   border-radius: 10px;
-   padding: 20px;
-   font-family: 'Montserrat', sans-serif;
-   font-size: 150%;
-   float: right;
-   margin: 30px 30px 30px;
-}
-button:hover {
-    background-color: rgb(252, 253, 252);
-    transition: .2s;
-}
-nav{
-  display: auto auto auto auto;
-  float: right;
-  margin: 50px 50px 50px;
-  word-spacing: 60px;
-  font-size: 140%;
-}
 footer{
    color: whitesmoke;
    font-family: 'Montserrat', sans-serif;
    text-align: center; 
-   background-color: rgb(10, 0, 0);
+   background-color: black;
    margin-top: auto; 
 }
 footer a {
@@ -74,46 +83,37 @@ footer a {
 /* ID */
 
 #botao{
-   line-height: 1.4;
    color: white;
    border-radius: 10px;
    padding: 20px;
-   font-family: "poppins", sans-serif;
+   font-family: "Montserrat", sans-serif;
    text-decoration: none ;
    word-spacing: 5px;
+   font-size: 120%;
+   background: none;
+   border: none;
+   transition: color 0.3s, transform 0.3s; /* Transição suave */
 }
 #botao:hover {
    color:#E65100;
-   transform: scale(2.0); /* Aumenta o tamanho da imagem ao passar o mouse */
-   transition: transform 0.3s; /* Transição suave */
+   transform: scale(1.1); /* Aumenta o tamanho da imagem ao passar o mouse */
 }
 #bem-vindo{
-font-size: 80%;
+font-size: 90%;
 }
-#img-rodape{
-   margin: auto;
+#frase{
+   font-size: 150%;
 }
-
 #img-body{
    padding: 10px 10px;
    float: left;
 }
-
-H1{
-   float: center;
-   margin: 20px;
-   padding: 20px;
-   text-align: center;
-}
-
 #h2{
  float: center;
  margin: 20px;
  padding: 20px;
  text-align: center;
 }
-
-
 .mesclar{
   mix-blend-mode: multiply;
 }
