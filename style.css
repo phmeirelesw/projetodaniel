@@ -56,11 +56,16 @@ H1{
    text-align: center;
 }
 h2{
-   font-size: 200%;
    color: whitesmoke;
    padding: 20px;
    font-family: 'Montserrat', sans-serif;
    margin-bottom: 4px; /* aproxima do que vem depois */
+}
+h3{
+   font-size: 150%;
+   color: black;
+   padding: 20px;
+   font-family: 'Montserrat', sans-serif;
 }
 h5{
    font-size: 80%;
@@ -101,19 +106,19 @@ footer a {
 #bem-vindo{
 font-size: 90%;
 }
-#frase{
+#frase1{
    font-size: 150%;
 }
-#img-body{
-   padding: 10px 10px;
-   float: left;
+#frase2{
+   font-size: 150%;
+   color: black;
 }
-#h2{
- float: center;
- margin: 20px;
- padding: 20px;
- text-align: center;
+#quem-somos{
+background-color: white;
+color: black;
 }
-.mesclar{
-  mix-blend-mode: multiply;
+#linha{
+   border: 3px solid black;
+   margin: 0;
+   padding: 0;
 }
