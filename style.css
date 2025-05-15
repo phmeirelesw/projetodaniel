@@ -70,6 +70,7 @@ footer a {
 /* ID */
 
 #botao{
+   line-height: 1.4;
    color: white;
    border-radius: 10px;
    padding: 20px;
@@ -80,7 +81,7 @@ footer a {
 #botao:hover {
    color:#E65100;
    transform: scale(2.0); /* Aumenta o tamanho da imagem ao passar o mouse */
-   transition: transform 0.6s; /* Transição suave */
+   transition: transform 0.3s; /* Transição suave */
 }
 #bem-vindo{
 font-size: 80%;
