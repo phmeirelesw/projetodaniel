@@ -20,7 +20,6 @@ header{
    top: 0;
    width: 100%;
    z-index: 1000;
-   box-shadow: 0 2px 8px rgba(0.05,0.05,0.05,0.05); /* sombra para destacar */
 }
 h1{
    font-size: 280%;
@@ -35,6 +34,9 @@ h2{
    padding: 20px;
    font-family: 'Montserrat', sans-serif;
    margin-bottom: 4px; /* aproxima do que vem depois */
+}
+h5{
+   font-size: 80%;
 }
 ins{
    text-decoration: none;
