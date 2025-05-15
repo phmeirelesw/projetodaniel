@@ -121,6 +121,20 @@ color: black;
    background-color: #E65100;
    color: white;
 }
+
+#galery1{
+   padding: 0%;
+   margin: 10px;
+
+}
+
+#description{
+   width: 240px;
+   margin-left: 400px;
+   margin-top: 400 px;
+}
+
+
 #linha{
    border: 3px solid black;
    margin: 0;
