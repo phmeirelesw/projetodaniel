@@ -63,7 +63,7 @@ h2{
 }
 h3{
    font-size: 150%;
-   color: black;
+   color: rgb(253, 252, 252);
    padding: 20px;
    font-family: 'Montserrat', sans-serif;
 }
@@ -111,12 +111,15 @@ font-size: 90%;
 }
 #frase2{
    font-size: 150%;
-   color: black;
+   color: rgb(253, 252, 252);
+   font-family: 'Urbanist', sans-serif;
 }
+
 #quem-somos{
-background-color: white;
-color: black;
+background-color: #E65100;
+color: rgb(255, 255, 255);
 }
+
 #lojas{
    background-color: #E65100;
    color: white;
@@ -124,8 +127,7 @@ color: black;
 
 #galery1{
    padding: 0%;
-   margin: 10px;
-
+   margin: 0%;
 }
 
 #description{
@@ -139,4 +141,27 @@ color: black;
    border: 3px solid black;
    margin: 0;
    padding: 0;
+}
+
+#h2{
+   font-size: 90%;
+   color: rgb(255, 255, 255);
+   font-family: 'Urbanist', sans-serif;
+}
+
+#h2.{
+   font-size: 90%;
+   color: rgb(255, 255, 255);
+   font-family: 'Urbanist', sans-serif;
+}
+
+#h2..{
+   font-size: 90%;
+   color: rgb(255, 255, 255);
+   font-family: 'Urbanist', sans-serif;
+}
+
+#img{
+  float: left;
+  margin: 9px;
 }
