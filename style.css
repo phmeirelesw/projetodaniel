@@ -162,5 +162,6 @@ color: rgb(255, 255, 255);
     min-height: 500px;        /* Ajuste conforme necessário */
 }
 .texto-section {
-    max-width: 600px;         /* Largura máxima do texto */
+    max-width: 1200px;         /* Largura máxima do texto */
+    flex-direction: column;
 }
