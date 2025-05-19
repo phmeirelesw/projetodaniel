@@ -148,9 +148,10 @@ color: rgb(255, 255, 255);
 } 
  
 #img{
-  float: left;
-  margin: 9px;
+  float: right;
+  margin: 30px;
 }
+
 #logo{
    width: 400px;
    height: auto;
@@ -226,4 +227,16 @@ color: rgb(255, 255, 255);
 
 .formulario button:hover {
   background: #bf4800;
+}
+
+#button-dois{
+ float: left;
+ border-color: black;
+ background-color: #050301;
+ color: white;
+ transition: .2s;
+}
+#button:houver {
+ color:#E65100;
+ transform: scale(1.1);
 }
