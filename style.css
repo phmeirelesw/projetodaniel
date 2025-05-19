@@ -49,6 +49,10 @@ button{
    float: right;
    transition: background 0.2s;
 }
+button:hover{
+   background-color: #ffffff;
+   transform: scale(1.1); /* Aumenta o tamanho da imagem ao passar o mouse */
+}
 h1{
    float: center;
    margin: 20px;
@@ -116,11 +120,13 @@ color: rgb(255, 255, 255);
 #lojas{
    background-color: #E65100;
    color: white;
+   
 } 
 
-#galery1{
+#galery{
    padding: 0%;
-   margin: 0%;
+   margin: auto;
+   display: flex;
 } 
 
 #description{
