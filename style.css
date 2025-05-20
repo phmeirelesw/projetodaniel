@@ -123,9 +123,10 @@ color: rgb(255, 255, 255);
    
 } 
 
-#galery{
-   padding: 0%;
-   margin: auto;
+#imagemdaloja{
+   padding-left: 20%;
+   margin-bottom: 5%;
+   margin-top: 5%;
    display: flex;
 } 
 
