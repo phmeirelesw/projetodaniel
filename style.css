@@ -149,7 +149,11 @@ color: rgb(255, 255, 255);
 } 
  
 #img{
+<<<<<<< HEAD
   float: left;
+=======
+  float: right;
+>>>>>>> 12781444e0d866458ee6e17fba40c6f0bb8f2be2
   margin: 30px;
 }
 
@@ -230,4 +234,18 @@ color: rgb(255, 255, 255);
   background: #bf4800;
 }
 
+<<<<<<< HEAD
 
+=======
+#button-dois{
+ float: left;
+ border-color: black;
+ background-color: #050301;
+ color: white;
+ transition: .2s;
+}
+#button:houver {
+ color:#E65100;
+ transform: scale(1.1);
+}
+>>>>>>> 12781444e0d866458ee6e17fba40c6f0bb8f2be2
