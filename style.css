@@ -49,6 +49,10 @@ button{
    float: right;
    transition: background 0.2s;
 }
+button:hover{
+   background-color: #ffffff;
+   transform: scale(1.1); /* Aumenta o tamanho da imagem ao passar o mouse */
+}
 h1{
    float: center;
    margin: 20px;
@@ -116,11 +120,14 @@ color: rgb(255, 255, 255);
 #lojas{
    background-color: #E65100;
    color: white;
+   
 } 
 
-#galery1{
-   padding: 0%;
-   margin: 0%;
+#imagemdaloja{
+   padding-left: 20%;
+   margin-bottom: 5%;
+   margin-top: 5%;
+   display: flex;
 } 
 
 #description{
@@ -142,9 +149,10 @@ color: rgb(255, 255, 255);
 } 
  
 #img{
-  float: left;
-  margin: 9px;
+  float: right;
+  margin: 30px;
 }
+
 #logo{
    width: 400px;
    height: auto;
@@ -220,4 +228,16 @@ color: rgb(255, 255, 255);
 
 .formulario button:hover {
   background: #bf4800;
+}
+
+#button-dois{
+ float: left;
+ border-color: black;
+ background-color: #050301;
+ color: white;
+ transition: .2s;
+}
+#button:houver {
+ color:#E65100;
+ transform: scale(1.1);
 }
