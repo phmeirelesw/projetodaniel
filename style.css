@@ -126,10 +126,6 @@ color: rgb(255, 255, 255);
    
 } 
 
-
-
-
-
 #description{
    width: 240px;
    margin-left: 400px;
@@ -170,8 +166,12 @@ color: rgb(255, 255, 255);
     min-height: 500px;        /* Ajuste conforme necessário */
 }
 .texto-section {
-    max-width: 1200px;         /* Largura máxima do texto */
     flex-direction: column;
+    width: 600px;/* Largura fixa para o bloco de texto */
+    max-width: 90vw;/* Responsivo em telas menores */
+    text-align: justify;/* Justifica o texto */
+    font-size: 1.3em;/* Aumenta o tamanho da fonte */
+    margin-left: 60px;/* Margem esquerda para afastar do logo */
 }
 .formulario {
   max-width: 400px;
