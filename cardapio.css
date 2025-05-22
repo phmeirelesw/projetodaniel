@@ -99,3 +99,25 @@ footer a {
   text-decoration: none;
   margin: 0 10px;
 }
+h5{
+   font-size: 80%;
+}
+/* style.html */
+#foto{
+   width: 100%;
+   border-radius: 10px;
+}
+#corpo{
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 30px; 
+  padding: 20px;
+}
+#hamburguer{
+  background: white;
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+}
