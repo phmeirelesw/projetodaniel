@@ -50,7 +50,7 @@ button{
    transition: background 0.2s;
 }
 button:hover{
-   background-color: #ffffff;
+   background-color: #e65100;
    transform: scale(1.1); /* Aumenta o tamanho da imagem ao passar o mouse */
 }
 h1{
