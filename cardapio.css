@@ -93,11 +93,13 @@ footer{
    width: 100%;
    box-sizing: border-box;
    padding: 20px 0;
+   align-items: center;
+   gap: 16px;
 }
 footer a {
   color: whitesmoke;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 h5{
    font-size: 80%;
