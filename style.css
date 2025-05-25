@@ -127,7 +127,10 @@ color: rgb(255, 255, 255);
 } 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 9a603455d9f14c4fea5c023c0bc52d3af33afe61
 #description{
 >>>>>>> 9a603455d9f14c4fea5c023c0bc52d3af33afe61
    width: 240px;
@@ -322,6 +325,7 @@ bottom: 80%;
   background: #bf4800;
 }
 
+
 #quem-somos .container {
   display: flex;
   align-items: flex-start;
@@ -333,7 +337,6 @@ bottom: 80%;
 #quem-somos .texto {
   flex: 1 1 60%;
 }
-
 
 
 #quem-somos img {
@@ -360,11 +363,7 @@ bottom: 80%;
     background: #fff;
 
 }
- #h2-{
-   font-size: 90%;
-   color: rgb(255, 255, 255);
-   font-family: 'Urbanist', sans-serif;
-} 
+ 
 
 .formulario select {
     width: 100%;
@@ -384,3 +383,21 @@ bottom: 80%;
     background: #fff;
 }
 
+
+.formulario select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    transition: border 0.2s;
+}
+
+.formulario select:focus {
+    border-color: #E65100;
+    outline: none;
+    background: #fff;
+}
