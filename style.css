@@ -127,9 +127,6 @@ color: rgb(255, 255, 255);
 } 
 
 
-
-
-
 #description{
    width: 240px;
    margin-left: 400px;
@@ -149,11 +146,7 @@ color: rgb(255, 255, 255);
 } 
  
 #img{
-<<<<<<< HEAD
   float: left;
-=======
-  float: right;
->>>>>>> 12781444e0d866458ee6e17fba40c6f0bb8f2be2
   margin: 30px;
 }
 
@@ -234,18 +227,24 @@ color: rgb(255, 255, 255);
   background: #bf4800;
 }
 
-<<<<<<< HEAD
+#quem-somos .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 
-=======
-#button-dois{
- float: left;
- border-color: black;
- background-color: #050301;
- color: white;
- transition: .2s;
+#quem-somos .texto {
+  flex: 1 1 60%;
 }
-#button:houver {
- color:#E65100;
- transform: scale(1.1);
+
+#quem-somos .imagem {
+  flex: 1 1 35%;
 }
->>>>>>> 12781444e0d866458ee6e17fba40c6f0bb8f2be2
+
+#quem-somos img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
