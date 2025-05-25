@@ -126,6 +126,10 @@ color: rgb(255, 255, 255);
    
 } 
 
+<<<<<<< HEAD
+=======
+#description{
+>>>>>>> 9a603455d9f14c4fea5c023c0bc52d3af33afe61
    width: 240px;
    margin-left: 400px;
    margin-top: 400px;
@@ -330,9 +334,7 @@ bottom: 80%;
   flex: 1 1 60%;
 }
 
-#quem-somos .imagem {
-  flex: 1 1 35%;
-}
+
 
 #quem-somos img {
   max-width: 100%;
@@ -363,3 +365,22 @@ bottom: 80%;
    color: rgb(255, 255, 255);
    font-family: 'Urbanist', sans-serif;
 } 
+
+.formulario select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    transition: border 0.2s;
+}
+
+.formulario select:focus {
+    border-color: #E65100;
+    outline: none;
+    background: #fff;
+}
+>>>>>>> 9a603455d9f14c4fea5c023c0bc52d3af33afe61
