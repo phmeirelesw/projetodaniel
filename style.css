@@ -36,6 +36,7 @@ nav{
   margin:0;
   gap: 60px;
 }
+
 button{
    text-decoration: none;
    background-color: #E65100;
@@ -92,7 +93,22 @@ footer a {
   text-decoration: none;
   margin: 0 10px;
 }
-/* ID */
+
+#nlojas{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#nlojas.hr{
+   width: 100%; /* Define o tamanho da linha horizontal */
+  border: 0;
+  border-top: 1px solid black; /* Estilo da linha */
+}
+
+#nlojas.span{
+   margin: 0 10px;
+}
 
 #botao{
    color: white;
