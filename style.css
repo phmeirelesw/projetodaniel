@@ -36,6 +36,7 @@ nav{
   margin:0;
   gap: 60px;
 }
+
 button{
    text-decoration: none;
    background-color: #E65100;
@@ -92,7 +93,22 @@ footer a {
   text-decoration: none;
   margin: 0 10px;
 }
-/* ID */
+
+#nlojas{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#nlojas.hr{
+   width: 100%; /* Define o tamanho da linha horizontal */
+  border: 0;
+  border-top: 1px solid black; /* Estilo da linha */
+}
+
+#nlojas.span{
+   margin: 0 10px;
+}
 
 #botao{
    color: white;
@@ -147,7 +163,7 @@ color: rgb(255, 255, 255);
 .description{
    font-size: 150%;
    position: absolute;
-   bottom: 40%;
+   bottom: 30%;
    left: 50%;
    transform: translate(-50% , -50%);
    color: white;
@@ -177,7 +193,7 @@ color: rgb(255, 255, 255);
 
 #banner{
    display: flex;
-   height: 2000;
+   height: 700px;
    padding: auto;
    text-align: center;
    position: relative;
@@ -191,33 +207,34 @@ color: rgb(255, 255, 255);
 
 .mapa-sobreposto{
 
-   position: absolute; /* Posiciona o mapa em relação ao contêiner */
-  top: 65%;
-  left: 50%; /* Exemplo: Começa o mapa no meio da largura do contêiner */
-bottom: 80%;
-  transform: translate(-50%, -50%); /* Centraliza o mapa */
-  width: 50%; /* Largura do mapa (70% do contêiner) */
-  height: 50%; /* Altura do mapa (70% do contêiner) */
-  border: 5px solid #fff; /* Uma borda para destacar o mapa */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
-  z-index: 2; /* Coloca o mapa acima do vídeo (um z-index maior) */
-  background-color: #eee; /* Cor de fundo caso o mapa não carregue imediatamente */
-  border-radius: 8px; /* Cantos arredondados para o mapa */
+   position: absolute; 
+  top: 60%;
+  left: 50%; 
+   bottom: 90%;
+  transform: translate(-50%, -50%); 
+  width: 50%; 
+  height: 50%; 
+  border: 5px solid #fff; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+  z-index: 2; 
+  background-color: #eee; 
+  border-radius: 8px; 
 }
 
 .mapa-sobreposto iframe{
-    border-radius: 4px; /* Cantos levemente arredondados para o iframe interno */
+    border-radius: 4px; 
 }
 
 .button{
    size: 5px;
   position: relative;
-  bottom: 10%;
-  right: 3%;
+  bottom: 50px;
+  right: 1%;
   top: 0.5px;
   color: white;
    border-radius: 10px;
    padding: 0;
+   margin-top: 10px;
    font-family: "Montserrat", sans-serif;
    text-decoration: none ;
    word-spacing: 5px;
