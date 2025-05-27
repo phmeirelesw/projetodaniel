@@ -73,7 +73,7 @@
 
         <hr id="linha">
         <nav>
-            <form class="formulario" action="#" method="post">
+            <form class="formulario" action="obrigado.html" method="post">
                 <h2>SEJA MEMBRO</h2>
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
@@ -101,35 +101,7 @@
                 <option value="santa-catarina-sc">Blumenau - SC</option>
                 </select>
                 <button type="submit">Enviar</button>
-        </form>
-            <script>
-                document.querySelector('.formulario').addEventListener('submit', function(event) {
-                // Pega os campos
-                const nome = document.getElementById('nome').value.trim();
-                const email = document.getElementById('email').value.trim();
-                const telefone = document.getElementById('telefone').value.trim();
-                const estado = document.getElementById('estado').value.trim();
-
-                // Expressão regular simples para validar e-mail
-                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-                // Validação dos campos
-                if (!nome || !email || !telefone || !estado) {
-                    alert('Por favor, preencha todos os campos.');
-                    event.preventDefault();
-                    return;
-                }
-
-                if (!emailRegex.test(email)) {
-                    alert('Por favor, insira um e-mail válido.');
-                    event.preventDefault();
-                    return;
-                }
-
-                // Se tudo estiver ok, o formulário será enviado normalmente
-                alert('Mensagem enviada com sucesso!');
-            });
-            </script>
+            </form>
         </nav>
         <footer>
                 <img src="imagens/logo_burgues_laranja_2 (1).png" alt="Logo O Burguês">
