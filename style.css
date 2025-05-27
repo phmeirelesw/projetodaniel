@@ -130,11 +130,20 @@ footer a {
 #frase1{
    font-size: 150%;
 }
- 
+#frase2{
+   font-size: 200%;
+   color: white;
+   padding: 20px;
+   text-align: center;
+   max-width: 80%;
+   margin: 0 auto 20px auto; /* Centraliza e afasta do conteúdo abaixo */
+   display: block; /* Garante que o elemento seja tratado como bloco */
+}
 #quem-somos{
-background-color: #E65100;
-color: rgb(255, 255, 255);
-} 
+    border-radius: 20px;
+    margin: 0;
+    padding: 10px 0;
+}
 
 #lojas{
    background-color: black;
@@ -142,13 +151,7 @@ color: rgb(255, 255, 255);
    
 } 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 9a603455d9f14c4fea5c023c0bc52d3af33afe61
 #description{
->>>>>>> 9a603455d9f14c4fea5c023c0bc52d3af33afe61
    width: 240px;
    margin-left: 400px;
    margin-top: 400px;
@@ -260,7 +263,6 @@ color: rgb(255, 255, 255);
   float: left;
   margin: 30px;
 }
-
 #logo{
    width: 400px;
    height: auto;
@@ -276,6 +278,18 @@ color: rgb(255, 255, 255);
     justify-content: center;  /* Centraliza horizontalmente */
     gap: 40px;                /* Espaço entre imagem e texto */
     min-height: 500px;        /* Ajuste conforme necessário */
+    margin-bottom: 0;      /* Espaço entre seções */
+    padding-bottom: 10px;
+}
+.section-flex2 {
+    display: flex;
+    align-items: center;      /* Centraliza verticalmente */
+    justify-content: center;  /* Centraliza horizontalmente */
+    gap: 40px;                /* Espaço entre imagem e texto */
+    min-height: 500px;        /* Ajuste conforme necessário */
+    flex-direction: row-reverse; /* Inverte a ordem dos elementos */
+    margin-top: 0;
+    padding-top: 10px;
 }
 .texto-section {
     flex-direction: column;
@@ -285,6 +299,16 @@ color: rgb(255, 255, 255);
     font-size: 1.3em;/* Aumenta o tamanho da fonte */
     margin-left: 60px;/* Margem esquerda para afastar do logo */
 }
+.texto-section2 {
+    padding: 30px;
+    border-radius: 16px;
+    width: 600px;
+    max-width: 90vw;
+    text-align: justify;
+    font-size: 1.2em;
+    color: #fff;
+}
+
 .formulario {
   max-width: 1000px;
   margin: 40px auto;
@@ -421,4 +445,12 @@ color: rgb(255, 255, 255);
 
 h3{
  margin-top: 5px;
+}
+#text{
+   font-family: 'Urbanist', sans-serif;
+   font-size: 105%;
+}
+.img-right {
+   width: 500px;
+   border-radius: 20px;
 }
