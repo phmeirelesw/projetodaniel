@@ -129,9 +129,16 @@ h5{
   background-color: #000000;
   text-align: center;
 }
+#footer {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  color: inherit;
+  font-family: inherit;
+}
 /*faça seu pedido*/
 button{
-  text-decoration: none;
+   text-decoration: none;
    background-color: black;
    color: #E65100;
    border-radius: 25px;
@@ -142,6 +149,7 @@ button{
    cursor: pointer;
    text-align: center;
    transition: background 0.2s;
+
 }
 button:hover{
   background-color: black;
