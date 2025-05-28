@@ -26,23 +26,22 @@ Este projeto representa uma base sólida e um protótipo funcional, demonstrando
 2. Estruturação e Estilização Geral
 Pedro Meireles: Foi o principal responsável pela estrutura e estilização geral do site. Isso incluiu a definição do layout base, a aplicação de estilos consistentes em todo o projeto, e a garantia de uma experiência de usuário coesa. Suas contribuições específicas foram:
 Estilização do Header: Desenvolveu os estilos visuais para o cabeçalho do site, garantindo sua aparência e responsividade.
-
-3. Seção "Bem-vindo": Criou a estrutura e a estilização da seção de boas-vindas, que serve como a primeira impressão do site.
+Seção "Bem-vindo": Criou a estrutura e a estilização da seção de boas-vindas, que serve como a primeira impressão do site.
 Footer: Responsável pela criação e estilização do rodapé do site, incluindo informações de contato, links úteis e direitos autorais.
 Formulário: Desenvolveu a estrutura e a estilização do formulário presente no site, garantindo sua funcionalidade e apelo visual, onde após o envio do formulário o usuário é redirecionado para outro site.
 
-4. Header e Seção "Quem Somos"
+3. Header e Seção "Quem Somos"
 Pedro Gusmão: Teve um papel fundamental na criação do cabeçalho e de uma parte da seção "Quem Somos". Suas contribuições foram:
 Estruturação do Header: Definiu a estrutura HTML do cabeçalho do site, incluindo a navegação e elementos essenciais.
 Parte da Seção "Quem Somos": Contribuiu para a criação do conteúdo e da estrutura de uma parte da seção "Quem Somos", que apresenta informações sobre o projeto.
 
-5. Cardápio
+4. Cardápio
 Gabriel Torres e Caio Vinicius: Trabalharam em conjunto para desenvolver a totalidade da seção do cardápio. Essa colaboração garantiu a funcionalidade completa e a apresentação visual dos itens oferecidos. Suas responsabilidades compartilhadas envolveram:
 Estruturação do Cardápio: Organizaram a apresentação dos itens do cardápio, categorias e descrições.
 Implementação dos Itens: Adicionaram os detalhes de cada item, como nome, preço e descrições.
 Estilização do Cardápio: Asseguraram que o cardápio fosse visualmente atraente e fácil de navegar para os usuários.
 
-6. Lojas
+5. Lojas
 Gabriel Sousa: Foi o responsável exclusivo pelo desenvolvimento da seção de lojas. Suas contribuições incluíram:
 Estrutura das Lojas: Criou a organização e apresentação das informações sobre as diferentes lojas ou unidades.
 Conteúdo das Lojas: Adicionou detalhes como endereços.
