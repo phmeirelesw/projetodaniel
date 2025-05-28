@@ -15,24 +15,35 @@ de cardápio.
 - Gabriel Sousa
 - Caio Vinicius
 
-#DOCUMENTAÇÃO
+#Documentação do Processo de Criação do Site
+Este documento detalha o processo de desenvolvimento de um site, especificando as responsabilidades e contribuições de cada participante da equipe.
 
-O desenvolvimento do site teve início no dia 13 de maio, com Pedro Gusmão iniciando a estruturação do header. No mesmo dia, Caio Vinicius deu início à criação do rodapé (footer).
+1. Proposta de Projeto: Site Interativo para Hamburgueria "O Burguês"
+Desenvolvemos um site interativo e visualmente atraente, inspirado na hamburgueria "O Burguês". Nosso objetivo foi criar uma plataforma digital que não apenas cativasse o usuário pela estética, mas também oferecesse uma experiência de navegação fluida e intuitiva.
+O site foi projetado para permitir que os visitantes explorem o cardápio, conheçam as informações sobre as lojas e, crucialmente, entrem em contato direto com a hamburgueria. Essa funcionalidade de contato direto visa facilitar a comunicação e o engajamento do cliente.
+Este projeto representa uma base sólida e um protótipo funcional, demonstrando nossa capacidade de criar soluções digitais de alta qualidade. Com a intenção de prospectar futuras oportunidades de negócio, acreditamos que este modelo pode ser adaptado e comercializado para clientes interessados em estabelecer ou aprimorar sua presença online no setor de alimentação.
 
-No dia 14 de maio, Pedro Meireles deu continuidade ao projeto, revisando e ajustando o header e o footer, além de realizar alterações visuais importantes, como a troca de fundo, paleta de cores e tipografia. A partir dessas mudanças, a estrutura do site passou a ter uma identidade visual mais definida e coerente.
+2. Estruturação e Estilização Geral
+Pedro Meireles: Foi o principal responsável pela estrutura e estilização geral do site. Isso incluiu a definição do layout base, a aplicação de estilos consistentes em todo o projeto, e a garantia de uma experiência de usuário coesa. Suas contribuições específicas foram:
+Estilização do Header: Desenvolveu os estilos visuais para o cabeçalho do site, garantindo sua aparência e responsividade.
 
-No dia 15 de maio, a equipe decidiu dividir o projeto em partes, para otimizar a produção e organização. A divisão ficou da seguinte forma:
+3. Seção "Bem-vindo": Criou a estrutura e a estilização da seção de boas-vindas, que serve como a primeira impressão do site.
+Footer: Responsável pela criação e estilização do rodapé do site, incluindo informações de contato, links úteis e direitos autorais.
+Formulário: Desenvolveu a estrutura e a estilização do formulário presente no site, garantindo sua funcionalidade e apelo visual, onde após o envio do formulário o usuário é redirecionado para outro site.
 
-Distribuição de Tarefas:
-Pedro Gusmão: Header + Body (Seção “Quem Somos”)
+4. Header e Seção "Quem Somos"
+Pedro Gusmão: Teve um papel fundamental na criação do cabeçalho e de uma parte da seção "Quem Somos". Suas contribuições foram:
+Estruturação do Header: Definiu a estrutura HTML do cabeçalho do site, incluindo a navegação e elementos essenciais.
+Parte da Seção "Quem Somos": Contribuiu para a criação do conteúdo e da estrutura de uma parte da seção "Quem Somos", que apresenta informações sobre o projeto.
 
-Gabriel Torres: Seção “Cardápio”
+5. Cardápio
+Gabriel Torres e Caio Vinicius: Trabalharam em conjunto para desenvolver a totalidade da seção do cardápio. Essa colaboração garantiu a funcionalidade completa e a apresentação visual dos itens oferecidos. Suas responsabilidades compartilhadas envolveram:
+Estruturação do Cardápio: Organizaram a apresentação dos itens do cardápio, categorias e descrições.
+Implementação dos Itens: Adicionaram os detalhes de cada item, como nome, preço e descrições.
+Estilização do Cardápio: Asseguraram que o cardápio fosse visualmente atraente e fácil de navegar para os usuários.
 
-Pedro Meireles: Header, Body (Seção “Bem-vindo”), Footer, Estrutura geral
-
-Gabriel Sousa: Body (Seção “Lojas”)
-
-Caio Vinicius: Footer, Seção “Cardápio”
-
-Considerações Finais:
-O projeto evoluiu significativamente com a colaboração de todos os integrantes, resultando em um site mais funcional, visualmente agradável e com melhor experiência para o usuário.
+6. Lojas
+Gabriel Sousa: Foi o responsável exclusivo pelo desenvolvimento da seção de lojas. Suas contribuições incluíram:
+Estrutura das Lojas: Criou a organização e apresentação das informações sobre as diferentes lojas ou unidades.
+Conteúdo das Lojas: Adicionou detalhes como endereços.
+Estilização das Lojas: Garantiu que a seção de lojas fosse clara, informativa e visualmente agradável.
