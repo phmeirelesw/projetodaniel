@@ -155,3 +155,7 @@ button:hover{
   background-color: black;
    transform: scale(1.1); /* Aumenta o tamanho da imagem ao passar o mouse */
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
